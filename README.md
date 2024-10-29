@@ -54,28 +54,24 @@ To reproduce the results or modify the model, follow these steps:
    - `pandas`, `numpy`, `scikit-learn`, `xgboost`, `imbalanced-learn`, `matplotlib`, and `seaborn`.
 
    You can install these dependencies with:
+    ```bash
+    conda install -c conda-forge pandas numpy scikit-learn xgboost imbalanced-learn matplotlib seaborn
+   ```
+   or
    ```bash
    pip install pandas numpy scikit-learn xgboost imbalanced-learn matplotlib seaborn
    ```
 
-2. **Running the Notebook**:
+3. **Running the Notebook**:
    - The notebook (`Notebook_Private_Score_0.8544.ipynb`) contains all the code from data preprocessing to model training and evaluation.
    - Open the notebook using Jupyter Notebook or any compatible IDE and run all cells sequentially to reproduce the final model.
 
-3. **Generating Predictions for Kaggle**:
+4. **Generating Predictions for Kaggle**:
    - After running all cells, a CSV file named `submission.csv` will be generated in the working directory, which contains the customer indices and the predicted churn values.
-
-## Future Improvements
-
-- **Feature Engineering**: Incorporate more domain-specific features to improve the predictive power of the model.
-- **Ensemble Methods**: Experiment with additional ensemble techniques, such as Stacking or Blending, to further enhance model performance.
-- **Deep Learning**: Explore deep learning models, such as Neural Networks, to capture complex patterns in the data that traditional models may miss.
 
 ## Acknowledgements
 
-Thanks to the course mentors and my fellow participants for their valuable discussions and shared insights throughout this project. The dataset was provided by the telecommunications company, and all processing and modeling were done using open-source Python libraries.
-
-If you have any questions or suggestions for improvements, feel free to reach out!
+I would like to extend my gratitude to the course teacher, **Volodymyr Holomb** (https://github.com/woldemarg), and mentor, **Yehor Yanvarov** (https://github.com/herbvertuher), for their invaluable support.
 
 ---
 
